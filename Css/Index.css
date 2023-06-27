@@ -1,0 +1,106 @@
+
+/* texto del cuerpo*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-image: url(/ovaJdp/Imagenes/5559852.jpg);
+    background-size: no-repeat;
+    background-size: cover;
+    /*el ancho y largo de un elemento, que tes venga en cuenta cada borde y relleno*/
+    box-sizing: border-box;
+    background-color: #8eb8ff;
+
+}
+/*Sobre todo*/
+ * {
+   /* Relleno de los cuatro lados*/
+    padding: 0;
+    /* margenes de los cuatro lados */
+    margin: 0;
+    /* Define el tipo de lista*/
+    list-style: none;
+    /* Calcula el ancho y largo de los elementos, especifica el valor de los bordes*/    
+}
+/*Maneja el borde del menu*/
+nav {
+    /* Define el color de los elementos */
+    background:aquamarine;
+    /* Define la altura */
+    height: 70px;
+    /* Define el ancho*/ 
+    width: 100%; 
+   position: fixed;
+}
+/*Ubicación del objeto*/
+.enlace {
+    position: absolute;
+   padding: 10px 30px;
+}
+/*Tamaño del objeto*/
+.logo {
+    /* Altura*/
+    height: 45px;
+}
+/*Texto del menu*/
+nav a {
+    color: black;
+    /* dimensiones de la letra */
+    font-size: 18px;
+    padding: 7px ;
+    /* Tipo de redondeo de la esquina*/
+    border-radius: 3px;
+    /* Cambio de tamaño, La mayuscula*/
+    text-transform: uppercase;
+    cursor: pointer; 
+     /* Define si el texto tiene subrayado */
+       text-decoration: none;
+   /*  line-height: 80px;
+    margin-right: 40px;*/
+
+}
+/*El relleno*/
+ ul a.active, 
+ /* hover: efectua un segundo estado*/
+ ul a:hover {
+ background-color: blue;
+ color: aliceblue;
+    transition: .5s;
+}
+/*Posición de los elementos*/
+nav ul li{
+    /*Ubicación de un elemento */
+   float: right;
+    margin-right: 20px;
+    line-height: 65px; 
+    margin: 0 5px;
+}
+/**/
+/*nav ul{
+   /*  Tipo de visualización
+    display: inline-block;*/
+    /* Altura de una casilla
+    */
+    /*margen de los lados /
+  
+}*/
+/* Mover texto hacia abajo*/
+div.parte2{  
+    text-align: justify;
+    padding-top: 6.8%;
+    padding-right: 5%;
+   width: 70%;
+
+}
+.parte1{
+    margin-right: 0;
+    width: 40%;
+    height: 80%;
+    position: relative;
+    right: 13px;
+   
+}
+#todo{
+    transform: translate(1%,28% );
+    display: flex;
+    padding:30 px;
+}
